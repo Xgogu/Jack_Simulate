@@ -1,0 +1,874 @@
+figure {
+    attribute beetle_chrome {
+        ambient = (0.310,0.310,0.310);
+        diffuse = (0.780,0.780,0.780);
+        glossiness = 128;
+    }
+    attribute beetle_headlights {
+        ambient = (0.500,0.500,0.250);
+        diffuse = (1,1,0.650);
+        glossiness = 128;
+    }
+    attribute beetle_body {
+        ambient = (0,0,0.080);
+        diffuse = (0,0,0.422);
+        glossiness = 128;
+    }
+    attribute beetle_floor {
+        ambient = (0.050,0.050,0.050);
+        diffuse = (0.136,0.136,0.136);
+    }
+    attribute michiganlicenseplate {
+        ambient = (0,0,0.160);
+        diffuse = (0,0,0.115);
+    }
+    attribute beetle_filament {
+        ambient = (1,1,0);
+        diffuse = (1,1,0);
+    }
+    attribute beetle_interior {
+        ambient = (0.100,0.100,0.100);
+        diffuse = (0.279,0.279,0.279);
+    }
+    attribute beetle_tires {
+        ambient = (0.050,0.050,0.050);
+        diffuse = (0.102,0.102,0.102);
+    }
+    attribute beetle_rearLight {
+        ambient = (0.240,0,0);
+        diffuse = (0.570,0,0);
+        glossiness = 128;
+    }
+    attribute beetle_dash {
+        ambient = (0.040,0.040,0.040);
+        diffuse = (0.134,0.134,0.134);
+    }
+    attribute beetle_dash0 {
+        ambient = (0.040,0.040,0.040);
+        diffuse = (0.134,0.134,0.134);
+    }
+    attribute beetle_dash1 {
+        ambient = (0.050,0.050,0.050);
+        diffuse = (0.102,0.102,0.102);
+    }
+    attribute beetle_dash2 {
+        ambient = (0.050,0.050,0.050);
+        diffuse = (0.102,0.102,0.102);
+    }
+    attribute beetle_dash3 {
+        ambient = (0.050,0.050,0.050);
+        diffuse = (0.102,0.102,0.102);
+    }
+    attribute instruments {
+        ambient = (0,0.250,0.500);
+        diffuse = (0,0.320,0.500);
+    }
+    attribute darkslategray {
+        ambient = (0.035,0.060,0.060);
+        diffuse = (0.081,0.138,0.138);
+    }
+    attribute mediumspringgreen {
+        ambient = (0,0.118,0.120);
+        diffuse = (0,0.054,0.055);
+    }
+    attribute michiganlicenseletters {
+        ambient = (0.250,0.250,0.250);
+        diffuse = (1,1,1);
+    }
+    attribute darkslategray6 {
+        ambient = (0.036,0.060,0.060);
+        diffuse = (0.124,0.206,0.206);
+    }
+    attribute f_red {
+        ambient = (0.200,0,0.008);
+        diffuse = (0.800,0,0.032);
+    }
+    attribute darkslategray5 {
+        ambient = (0.036,0.060,0.060);
+        diffuse = (0.124,0.206,0.206);
+    }
+    attribute black {
+        ambient = (0.030,0.030,0.030);
+        diffuse = (0.108,0.108,0.108);
+    }
+    segment start {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site height->location = trans(0.0000cm,-1.8100cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment seg1 {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle13 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle13.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle14 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle14.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle15 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle15.pss";
+        attribute = beetle_headlights;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment body {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/body.pss";
+        attribute = beetle_body;
+        site body2->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site body->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site body0->location = xyz(-26.0000deg,-90.0000deg,26.0000deg) * trans(56.8238cm,60.9610cm,-169.8279cm);
+        site body1->location = xyz(-26.0000deg,-90.0000deg,26.0000deg) * trans(-56.8238cm,60.9610cm,-169.8279cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle18 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle18.pss";
+        attribute = beetle_headlights;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle19 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle19.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment floor {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/floor.pss";
+        attribute = beetle_floor;
+        site floor->location = xyz(-0.0000deg,0.0000deg,90.0000deg) * trans(-60.1070cm,37.6126cm,125.5048cm);
+        site floor->visibility = 1;
+        site ahp->location = xyz(-90.0000deg,0.0000deg,90.0000deg) * trans(31.0998cm,28.9894cm,73.2722cm);
+        site ahp->visibility = 1;
+        site floor_0->location = xyz(-0.0000deg,0.0000deg,-90.0000deg) * trans(60.1070cm,37.6126cm,125.5048cm);
+        site floor_0->visibility = 1;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site sgrp->location = xyz(-90.0000deg,0.0000deg,90.0000deg) * trans(31.0995cm,65.4491cm,-3.7040cm);
+        site sgrp->visibility = 1;
+        site floor_2->location = xyz(-0.0000deg,0.0000deg,90.0000deg) * trans(-60.1070cm,37.6126cm,-122.3436cm);
+        site floor_1->location = xyz(-0.0000deg,0.0000deg,-90.0000deg) * trans(60.1070cm,37.6126cm,-122.3436cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle111 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle111.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle112 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle112.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle113 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle113.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle115 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle115.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle116 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle116.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle117 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle117.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle118 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle118.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment licensePlate {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle122.pss";
+        attribute = michiganlicenseplate;
+        site licensePlate->location = xyz(20.0000deg,-180.0000deg,-0.0000deg) * trans(0.6304cm,62.4143cm,-193.5957cm);
+        site beetle122->location = xyz(20.0000deg,-180.0000deg,-0.0000deg) * trans(0.0000cm,62.7357cm,-193.4759cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle02 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle02.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle03 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle03.pss";
+        attribute = beetle_filament;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle04 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle04.pss";
+        attribute = beetle_filament;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle09 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle09.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle022 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle022.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment beetle026 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/beetle026.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment interior {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/interior.pss";
+        attribute = beetle_interior;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site interior->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site interior0->location = xyz(-10.3000deg,-19.8800deg,-1.8100deg) * trans(0.8839cm,131.3090cm,25.6441cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rim {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rim.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment hub {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/hub.pss";
+        attribute = beetle_chrome;
+        site hub->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment tire {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/tire.pss";
+        attributes = (beetle_tires,beetle_chrome);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rim0 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rim.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment hub0 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/hub.pss";
+        attribute = beetle_chrome;
+        site hub->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment tire0 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/tire.pss";
+        attributes = (beetle_tires,beetle_chrome);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rim1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rim.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment hub1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/hub.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site hub->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment tire1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/tire.pss";
+        attributes = (beetle_tires,beetle_chrome);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rim2 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rim.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment hub2 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/hub.pss";
+        attribute = beetle_chrome;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site hub->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment tire2 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/tire.pss";
+        attributes = (beetle_tires,beetle_chrome);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rearLight {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rear_light.pss";
+        attribute = beetle_rearLight;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site rearLight->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rearLight0 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rear_light.pss";
+        attribute = beetle_rearLight;
+        site rearLight->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment base {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site base0->location = xyz(0.0000deg,-90.0000deg,-0.0000deg) * trans(12.4487cm,-82.2889cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment dashgrey {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/dashgrey.pss";
+        attribute = beetle_dash;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment dashblak {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/dashblak.pss";
+        attributes = (beetle_dash0,beetle_dash1,beetle_dash2,beetle_dash3,instruments);
+        site dashblak->location = xyz(14.5600deg,89.6300deg,-18.7100deg) * trans(1.0940cm,93.2694cm,48.0669cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site radio->location = xyz(-1.5200deg,-14.9100deg,90.0000deg) * trans(-27.0956cm,7.8884cm,-5.5853cm);
+        site radio_button->location = xyz(-3.2500deg,2.3300deg,96.4400deg) * trans(-36.2756cm,10.1177cm,-6.6794cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment black1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/black1.pss";
+        attribute = beetle_body;
+        site black1->location = xyz(7.1900deg,20.3500deg,-4.6900deg) * trans(64.0086cm,100.3991cm,52.9176cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site left_wing_mir->location = trans(-40.4624cm,18.1131cm,64.0128cm);
+        site body->location = trans(-40.4624cm,18.1131cm,64.0128cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment black5 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/black5.pss";
+        attribute = beetle_body;
+        site black5->location = xyz(7.1900deg,-20.3500deg,4.6900deg) * trans(-64.0086cm,100.3991cm,52.9176cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site right_wing_mir->location = trans(-40.4624cm,18.1131cm,-64.0128cm);
+        site body->location = trans(-40.4624cm,18.1131cm,-64.0128cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment left_wing_mir {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/left_wing_mir.pss";
+        attribute = darkslategray;
+        site left_wing_mir->location = xyz(7.1900deg,20.3500deg,-4.6900deg) * trans(64.0087cm,100.3993cm,52.9177cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment right_wing_mir {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/right_wing_mir.pss";
+        attribute = darkslategray;
+        site right_wing_mir->location = xyz(7.1900deg,-20.3500deg,4.6900deg) * trans(-64.0087cm,100.3993cm,52.9177cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment seg0 {
+        site base->location = trans(0.0000cm,3.6259cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rmir1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rmir1.pss";
+        attribute = mediumspringgreen;
+        site rmir1->location = xyz(-10.3000deg,-19.8800deg,-1.8100deg) * trans(0.8839cm,131.3090cm,25.6442cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rmir2 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rmir2.pss";
+        attribute = beetle_interior;
+        site rmir2->location = xyz(-10.3000deg,-19.8800deg,-1.8100deg) * trans(0.8839cm,131.3090cm,25.6442cm);
+        site rmir2_0->location = xyz(-10.3000deg,-19.8800deg,-1.8100deg) * trans(0.8839cm,131.3090cm,25.6441cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment J {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/letter_j_uppercase.pss" * scale(1.800000,1.800000,0.393701);
+        attribute = michiganlicenseletters;
+        site next->location = trans(4.9500cm,0.0000cm,0.0000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site start->location = trans(13.1130cm,3.6162cm,-0.4987cm);
+        site J->location = trans(13.1130cm,3.6162cm,-0.4987cm);
+        site center_of_mass->location = trans(13.5104cm,3.4673cm,-0.2247cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment A {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/letter_a_uppercase.pss" * scale(1.800000,1.800000,0.393701);
+        attribute = michiganlicenseletters;
+        site next->location = trans(7.7940cm,0.0000cm,0.0000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment C {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/letter_c_uppercase.pss" * scale(1.800000,1.800000,0.393701);
+        attribute = michiganlicenseletters;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site next->location = trans(7.5420cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment K {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/letter_k_uppercase.pss" * scale(1.800000,1.800000,0.393701);
+        attribute = michiganlicenseletters;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rbutton4 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rbutton4.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = darkslategray6;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-58.3500cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rbutton3 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rbutton3.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = darkslategray6;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-55.9500cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rbutton2 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rbutton2.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = darkslategray6;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-53.5650cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rbutton1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rbutton1.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = darkslategray6;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-51.2025cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rstation {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rstation.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = f_red;
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.3500cm,56.8800cm,-52.5000cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rknob2 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rknob2.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = darkslategray5;
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-0.8400cm,55.1850cm,-47.9775cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment rknob1 {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/rknob1.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = darkslategray5;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site radio->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.8300cm,58.4850cm,-47.9775cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    segment radio {
+        psurf = "C:/Program Files/Siemens/Jack_8.0.1/docs/beetle/radio.pss" * scale(0.750000,0.750000,0.750000);
+        attribute = black;
+        site rknob2->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-0.8400cm,55.1850cm,-47.9775cm);
+        site rknob1->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.8300cm,58.4850cm,-47.9775cm);
+        site rbutton1->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-51.2025cm);
+        site radio->location = trans(-1.5480cm,56.7855cm,-52.0846cm);
+        site center_of_mass->location = trans(-1.5480cm,56.7855cm,-52.0846cm);
+        site rstation->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.3500cm,56.8800cm,-52.5000cm);
+        site rbutton2->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-53.5650cm);
+        site rbutton3->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-55.9500cm);
+        site rbutton4->location = xyz(-0.0000deg,0.0000deg,16.6700deg) * trans(-1.0575cm,55.9050cm,-58.3500cm);
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        /* start property list */
+        visibility = 0;
+        /* end property list */
+    }
+    joint beetle13 {
+        connect seg1.base to beetle13.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle14 {
+        connect seg1.base to beetle14.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle15 {
+        connect seg1.base to beetle15.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle17 {
+        connect seg1.base to body.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle18 {
+        connect seg1.base to beetle18.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle19 {
+        connect seg1.base to beetle19.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint floor {
+        connect seg1.base to floor.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle111 {
+        connect seg1.base to beetle111.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle112 {
+        connect seg1.base to beetle112.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle113 {
+        connect seg1.base to beetle113.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle115 {
+        connect seg1.base to beetle115.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle116 {
+        connect seg1.base to beetle116.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle117 {
+        connect seg1.base to beetle117.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle118 {
+        connect seg1.base to beetle118.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle122 {
+        connect seg1.base to licensePlate.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle02 {
+        connect seg0.base to beetle02.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle03 {
+        connect seg0.base to beetle03.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle04 {
+        connect seg0.base to beetle04.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle09 {
+        connect seg0.base to beetle09.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle022 {
+        connect seg0.base to beetle022.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint beetle026 {
+        connect seg0.base to beetle026.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J0 {
+        connect body.body to interior.interior;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint tire {
+        connect rim.base to tire.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint rim {
+        connect hub.base to rim.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J4 {
+        connect floor.floor to hub.hub;
+        type = R(y);
+    }
+    joint tire0 {
+        connect rim0.base to tire0.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint rim0 {
+        connect hub0.base to rim0.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J5 {
+        connect floor.floor_0 to hub0.hub;
+        type = R(y);
+    }
+    joint tire1 {
+        connect rim1.base to tire1.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint rim1 {
+        connect hub1.base to rim1.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J6 {
+        connect floor.floor_1 to hub1.hub;
+        type = R(y);
+    }
+    joint tire2 {
+        connect rim2.base to tire2.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint rim2 {
+        connect hub2.base to rim2.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J7 {
+        connect floor.floor_2 to hub2.hub;
+        type = R(y);
+    }
+    joint J8 {
+        connect body.body0 to rearLight.rearLight;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J9 {
+        connect body.body1 to rearLight0.rearLight;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint black1 {
+        connect body.base to black1.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint black5 {
+        connect body.base to black5.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint dashblak {
+        connect interior.base to dashblak.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint dashgrey {
+        connect base.base to dashgrey.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J10 {
+        connect body.body2 to base.base0;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint left_wing_mir {
+        connect black1.black1 to left_wing_mir.left_wing_mir;
+        type = R(y) * R(x);
+        llimit = (-180.0000deg,-180.0000deg);
+        ulimit = (180.0000deg,180.0000deg);
+    }
+    joint right_wing_mir {
+        connect black5.black5 to right_wing_mir.right_wing_mir;
+        type = R(y) * R(x);
+        llimit = (0.0000deg,-180.0000deg);
+        ulimit = (0.0000deg,180.0000deg);
+    }
+    joint dummy_0 {
+        connect seg0.base to seg1.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint rearViewMirrorGlass {
+        connect rmir2.rmir2 to rmir1.rmir1;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint rearViewMirror {
+        connect interior.interior0 to rmir2.rmir2_0;
+        type = R(y) * R(x) * R(z);
+        llimit = (0.0000deg,-180.0000deg,-180.0000deg);
+        ulimit = (0.0000deg,180.0000deg,180.0000deg);
+    }
+    joint start {
+        connect seg0.base to start.height;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint license_letters {
+        connect J.next to A.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J2 {
+        connect A.next to C.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J3 {
+        connect C.next to K.base;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint J1_0 {
+        connect licensePlate.licensePlate to J.J;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint volume {
+        connect radio.rknob1 to rknob1.radio;
+        type = R(x);
+    }
+    joint balance {
+        connect radio.rknob2 to rknob2.radio;
+        type = R(x);
+    }
+    joint station_number {
+        connect radio.rstation to rstation.radio;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint station1 {
+        connect radio.rbutton1 to rbutton1.radio;
+        type = T(x);
+    }
+    joint station2 {
+        connect radio.rbutton2 to rbutton2.radio;
+        type = T(x);
+    }
+    joint station3 {
+        connect radio.rbutton3 to rbutton3.radio;
+        type = T(x);
+    }
+    joint station4 {
+        connect radio.rbutton4 to rbutton4.radio;
+        type = T(x);
+    }
+    joint radio {
+        connect dashblak.dashblak to radio.radio;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    root = start.base;
+    /* start property list */
+    visibility = 1;
+    /* end property list */
+}

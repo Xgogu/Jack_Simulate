@@ -1,0 +1,1401 @@
+figure {
+    attribute v70_clothed_fingernails {
+        ambient = (0,0,0);
+        diffuse = (0.804,0.604,0.514);
+        /* start property list */
+        mesh_material_num = 0;
+        /* end property list */
+    }
+    attribute v70_clothed_hands {
+        ambient = (0,0,0);
+        diffuse = (0.855,0.667,0.490);
+        /* start property list */
+        mesh_material_num = 1;
+        /* end property list */
+    }
+    attribute v70_clothed_arms {
+        ambient = (0,0,0);
+        diffuse = (0.855,0.667,0.490);
+        /* start property list */
+        mesh_material_num = 2;
+        /* end property list */
+    }
+    attribute v70_clothed_iris {
+        ambient = (0,0,0);
+        diffuse = (0.267,0.125,0.094);
+        /* start property list */
+        mesh_material_num = 3;
+        /* end property list */
+    }
+    attribute v70_clothed_skin {
+        ambient = (0,0,0);
+        diffuse = (0.855,0.667,0.490);
+        /* start property list */
+        mesh_material_num = 4;
+        /* end property list */
+    }
+    attribute v70_clothed_eyeSparkle {
+        ambient = (0,0,0);
+        diffuse = (1,1,1);
+        /* start property list */
+        mesh_material_num = 5;
+        /* end property list */
+    }
+    attribute v70_clothed_pupils {
+        ambient = (0,0,0);
+        diffuse = (0.008,0.008,0.008);
+        /* start property list */
+        mesh_material_num = 6;
+        /* end property list */
+    }
+    attribute v70_clothed_eyeWhite {
+        ambient = (0,0,0);
+        diffuse = (0.973,0.894,0.827);
+        /* start property list */
+        mesh_material_num = 7;
+        /* end property list */
+    }
+    attribute v70_clothed_hair {
+        ambient = (0,0,0);
+        diffuse = (0.424,0.208,0.055);
+        /* start property list */
+        mesh_material_num = 8;
+        /* end property list */
+    }
+    attribute v70_clothed_shirt {
+        ambient = (0,0,0);
+        diffuse = (0.412,0.486,0.561);
+        /* start property list */
+        mesh_material_num = 9;
+        /* end property list */
+    }
+    attribute v70_clothed_lips {
+        ambient = (0,0,0);
+        diffuse = (0.675,0.486,0.392);
+        /* start property list */
+        mesh_material_num = 10;
+        /* end property list */
+    }
+    attribute v70_clothed_eyebrows {
+        ambient = (0,0,0);
+        diffuse = (0.506,0.286,0.071);
+        /* start property list */
+        mesh_material_num = 11;
+        /* end property list */
+    }
+    attribute v70_clothed_pants {
+        ambient = (0,0,0);
+        diffuse = (0.545,0.494,0.314);
+        /* start property list */
+        mesh_material_num = 12;
+        /* end property list */
+    }
+    attribute v70_clothed_shoeSole {
+        ambient = (0,0,0);
+        diffuse = (0,0,0);
+        /* start property list */
+        mesh_material_num = 13;
+        /* end property list */
+    }
+    attribute v70_clothed_shoeLeather {
+        ambient = (0,0,0);
+        diffuse = (0.376,0.200,0.063);
+        /* start property list */
+        mesh_material_num = 14;
+        /* end property list */
+    }
+    mesh = "male_v70_clothed.cfg";
+    human_version = 7.00;
+    segment bottom_head {
+        centerofmass = (1.70cm,0.00cm,6.09cm);
+        mass = 4.7419kg;
+        site tragion_right->location = xyz(-0.0552deg,0.0000deg,-0.0063deg) * trans(2.6643cm,-7.3625cm,4.0198cm);
+        site right->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(0.7690cm,-7.7717cm,5.4145cm);
+        site bottom->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(7.2447cm,0.0020cm,-7.0588cm);
+        site nuchale->location = xyz(-0.0552deg,0.0000deg,-0.0063deg) * trans(-4.4396cm,0.0013cm,-1.5482cm);
+        site menton->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(11.2137cm,0.0013cm,-6.9346cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site supramenton->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(12.0598cm,0.0082cm,-3.7911cm);
+        site right_eyeball->location = xyz(89.9446deg,-0.0063deg,-90.0000deg) * trans(9.4094cm,-3.3831cm,5.0203cm);
+        site back->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(-6.9302cm,0.0197cm,6.0270cm);
+        site sight->location = xyz(89.9231deg,-90.0063deg,0.0231deg) * trans(11.9637cm,0.0170cm,5.3713cm);
+        site sellion->location = trans(11.9637cm,0.0170cm,5.3713cm);
+        site front->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(11.9998cm,0.0172cm,5.5670cm);
+        site left_eyeball->location = xyz(89.9446deg,-0.0063deg,-90.0000deg) * trans(9.4105cm,3.4197cm,5.0123cm);
+        site tragion_left->location = xyz(-0.0552deg,0.0000deg,-0.0063deg) * trans(2.6659cm,7.3959cm,4.0056cm);
+        site left->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(0.7716cm,7.8126cm,5.4018cm);
+        site top->location = xyz(-0.0553deg,0.0000deg,-0.0063deg) * trans(2.6651cm,0.0281cm,15.8676cm);
+    }
+    segment left_eyeball {
+        centerofmass = (0.00cm,0.00cm,0.00cm);
+        mass = 0.0276kg;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site sight->location = xyz(90.0000deg,0.0000deg,90.0000deg) * trans(0.0000cm,1.7850cm,0.0000cm);
+    }
+    segment right_eyeball {
+        centerofmass = (0.00cm,0.00cm,0.00cm);
+        mass = 0.0276kg;
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site sight->location = xyz(90.0000deg,0.0000deg,90.0000deg) * trans(0.0000cm,1.7850cm,0.0000cm);
+    }
+    segment ear_left {
+        site tragion->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment ear_right {
+        site tragion->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment eyelid_upper_left {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment eyelid_upper_right {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment eyelid_lower_left {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment eyelid_lower_right {
+        site base->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment neck {
+        mass = 1.9250kg;
+        site base_rt->location = trans(0.0280cm,-6.0180cm,1.6278cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site front->location = trans(5.4218cm,0.0000cm,0.5195cm);
+        site back->location = trans(-6.6143cm,0.0000cm,0.4795cm);
+        site distal->location = trans(0.0000cm,0.0000cm,10.7059cm);
+    }
+    segment right_foot {
+        mass = 0.9973kg;
+        site metatarsalPhal1->location = trans(18.1000cm,-4.9597cm,3.9095cm);
+        site left->location = trans(14.1875cm,-5.3783cm,5.5307cm);
+        site toes->location = trans(14.0570cm,-0.7801cm,4.2933cm);
+        site distal->location = trans(8.6509cm,-2.1582cm,5.1476cm);
+        site normal->location = trans(3.0817cm,-2.1622cm,5.4695cm);
+        site proximal->location = trans(3.0846cm,-2.1582cm,-1.6758cm);
+        site right->location = trans(16.0644cm,4.1713cm,5.6663cm);
+        site metatarsalPhal5->location = trans(14.7747cm,4.2784cm,5.2406cm);
+        site top->location = trans(2.0389cm,-1.4646cm,-1.0904cm);
+        site bottom->location = trans(0.5038cm,-0.0772cm,5.4718cm);
+        site new_heel->location = trans(-3.2193cm,-3.2977cm,2.4138cm);
+        site calcaneousPost->location = trans(-3.2937cm,-3.3567cm,2.4187cm);
+        site heel->location = trans(-2.8381cm,-2.4668cm,5.4117cm);
+    }
+    segment left_foot {
+        mass = 0.9973kg;
+        site metatarsalPhal5->location = trans(14.7747cm,-4.2784cm,5.2406cm);
+        site toes->location = trans(14.0529cm,0.7068cm,4.4402cm);
+        site metatarsalPhal1->location = trans(18.1000cm,4.9597cm,3.9095cm);
+        site distal->location = trans(8.6509cm,2.1582cm,5.1476cm);
+        site normal->location = trans(3.0817cm,2.1622cm,5.4695cm);
+        site proximal->location = trans(3.0846cm,2.1582cm,-1.6758cm);
+        site heel->location = trans(-2.8381cm,2.4668cm,5.4117cm);
+        site new_heel->location = trans(-3.2193cm,3.2977cm,2.4138cm);
+        site calcaneousPost->location = trans(-3.2937cm,3.3567cm,2.4187cm);
+    }
+    segment right_toes {
+        mass = 0.1755kg;
+        site distal->location = xyz(-45.0000deg,90.0000deg,-45.0000deg) * trans(0.9431cm,-3.4553cm,1.5131cm);
+        site toetip->location = trans(8.1890cm,-2.3558cm,1.6771cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_toes {
+        mass = 0.1755kg;
+        site toetip->location = trans(8.2312cm,2.3718cm,1.6774cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site distal->location = xyz(-45.0000deg,90.0000deg,-45.0000deg) * trans(0.9431cm,3.4553cm,1.5131cm);
+    }
+    segment left_lower_leg {
+        centerofmass = (-0.66cm,0.00cm,15.40cm);
+        mass = 3.0215kg;
+        site malleolusLat->location = trans(0.5600cm,-2.0331cm,40.3020cm);
+        site malleolusMed->location = trans(0.5439cm,1.7634cm,40.3014cm);
+        site distal->location = trans(0.0000cm,0.0000cm,40.2976cm);
+        site femoralEpicnLat->location = trans(0.5443cm,-4.9018cm,-0.0034cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site femoralEpicnMed->location = trans(0.5542cm,5.4388cm,-0.0035cm);
+        site kneeCrease->location = trans(-4.8776cm,-0.0031cm,0.0020cm);
+    }
+    segment right_lower_leg {
+        centerofmass = (-0.66cm,0.00cm,15.40cm);
+        mass = 3.0215kg;
+        site malleolusMed->location = trans(0.5500cm,-1.7269cm,40.3020cm);
+        site distal->location = trans(0.0000cm,0.0000cm,40.2976cm);
+        site malleolusLat->location = trans(0.5565cm,2.0323cm,40.3050cm);
+        site left->location = trans(-1.0403cm,-5.7622cm,9.5268cm);
+        site back->location = trans(-6.2537cm,-0.0001cm,10.2702cm);
+        site right->location = xyz(-0.4000deg,0.5000deg,-0.0000deg) * trans(-0.9767cm,5.2448cm,9.2790cm);
+        site femoralEpicnMed->location = trans(0.5542cm,-5.4388cm,-0.0035cm);
+        site knee->location = trans(5.6194cm,-0.4202cm,0.1092cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site kneeCrease->location = trans(-4.8773cm,0.0031cm,-0.0005cm);
+        site femoralEpicnLat->location = trans(0.5443cm,4.9018cm,-0.0034cm);
+    }
+    segment left_upper_leg {
+        centerofmass = (1.81cm,0.00cm,17.21cm);
+        mass = 7.6241kg;
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site trochanterion->location = trans(-2.6700cm,-5.0561cm,0.3624cm);
+        site trochanter->location = trans(-1.5000cm,-5.9761cm,7.3456cm);
+        site distal->location = trans(0.0000cm,0.0000cm,47.7416cm);
+        site kneeCrease->location = trans(-5.8584cm,-0.0031cm,47.7397cm);
+    }
+    segment right_upper_leg {
+        centerofmass = (1.81cm,0.00cm,17.21cm);
+        mass = 7.6241kg;
+        site trochanterion->location = trans(-2.6700cm,5.0561cm,0.3624cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site right->location = trans(1.9579cm,7.2642cm,4.4510cm);
+        site back->location = trans(-8.3801cm,3.1440cm,3.9313cm);
+        site trochanter->location = trans(-1.5008cm,5.9804cm,7.3476cm);
+        site compressed->location = trans(-6.2930cm,-5.3577cm,4.6186cm);
+        site front->location = trans(10.3583cm,-5.3577cm,4.6186cm);
+        site left->location = trans(1.9579cm,-9.9318cm,4.4510cm);
+        site poplit->location = trans(-6.7681cm,0.0000cm,40.7184cm);
+        site distal->location = trans(0.0000cm,0.0000cm,47.7416cm);
+        site kneeCrease->location = trans(-5.8587cm,0.0031cm,47.7369cm);
+        site knee->location = trans(5.5184cm,0.0000cm,50.0060cm);
+    }
+    segment left_upper_arm {
+        centerofmass = (-0.21cm,0.00cm,18.76cm);
+        mass = 1.8184kg;
+        site acromion->location = trans(-1.1806cm,0.5215cm,-2.7563cm);
+        site deltoid->location = trans(-0.9522cm,-3.7023cm,-0.6251cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site distal->location = trans(0.0000cm,0.0000cm,22.5598cm);
+        site humeral_epicn_lateral->location = trans(-0.2731cm,-4.9796cm,22.4951cm);
+    }
+    segment right_upper_arm {
+        centerofmass = (-0.21cm,0.00cm,18.76cm);
+        mass = 1.8184kg;
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site right->location = trans(-0.3960cm,5.5542cm,11.9783cm);
+        site front->location = trans(5.0714cm,-2.8187cm,13.0674cm);
+        site deltoid->location = trans(-0.9522cm,3.7023cm,-0.6251cm);
+        site left->location = trans(-0.3672cm,-5.1159cm,12.2300cm);
+        site acromion->location = trans(-1.1806cm,-0.5215cm,-2.7563cm);
+        site back->location = trans(-5.6195cm,-2.7546cm,11.2402cm);
+        site distal->location = trans(0.0000cm,0.0000cm,22.5598cm);
+        site humeral_epicn_lateral->location = trans(-0.2731cm,4.9796cm,22.4951cm);
+    }
+    segment left_clavicle {
+        mass = 1.6192kg;
+        site proximal->location = trans(0.0000cm,-6.3047cm,7.7061cm);
+        site acromion->location = trans(0.1679cm,-7.9323cm,21.1012cm);
+        site acromion_caesar->location = trans(0.1426cm,-8.5983cm,21.8179cm);
+        site lateral->location = xyz(-90.0000deg,0.0000deg,-0.0000deg) * trans(-1.3746cm,-4.5661cm,21.2089cm);
+    }
+    segment right_clavicle {
+        mass = 1.6192kg;
+        site lateral->location = xyz(90.0000deg,0.0000deg,-0.0000deg) * trans(-1.3619cm,4.5436cm,21.3137cm);
+        site acromion_caesar->location = trans(0.1425cm,8.6010cm,21.8208cm);
+        site acromion->location = trans(0.1679cm,7.9323cm,21.1012cm);
+        site proximal->location = trans(0.0000cm,6.3047cm,7.7061cm);
+    }
+    segment upper_torso {
+        site acromion_right->location = xyz(90.0000deg,0.0000deg,-0.0000deg) * trans(0.1679cm,-20.1015cm,-5.0918cm);
+        site right->location = xyz(-180.0000deg,0.0000deg,0.0000deg) * trans(0.0000cm,-17.4683cm,-4.2948cm);
+        site rclav->location = xyz(90.0000deg,0.0000deg,-0.0000deg) * trans(0.0000cm,-6.7144cm,-6.7723cm);
+        site distal->location = xyz(-0.0000deg,16.7500deg,-0.0000deg) * trans(2.0743cm,0.0436cm,-5.2250cm);
+        site proximal->location = xyz(-0.0000deg,-2.0000deg,-0.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site lclav->location = xyz(-90.0000deg,0.0000deg,-0.0000deg) * trans(0.0000cm,6.7144cm,-6.7723cm);
+        site left->location = xyz(180.0000deg,0.0000deg,-0.0000deg) * trans(0.0000cm,17.4683cm,-4.2948cm);
+        site acromion_left->location = xyz(-90.0000deg,0.0000deg,-0.0000deg) * trans(0.1679cm,20.1015cm,-5.0918cm);
+    }
+    segment t1 {
+        mass = 0.2634kg;
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site distal->location = xyz(-90.0000deg,0.0000deg,-90.0000deg) * trans(0.0000cm,1.8432cm,0.1748cm);
+        site cy2->location = xyz(-90.0000deg,0.0000deg,-90.0000deg) * trans(0.0001cm,2.6895cm,-6.2781cm);
+    }
+    segment t2 {
+        mass = 0.5326kg;
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site distal->location = trans(0.0000cm,1.7996cm,0.8547cm);
+        site front->location = trans(-0.0006cm,0.4066cm,7.3304cm);
+        site back->location = trans(0.0001cm,0.2698cm,-6.6185cm);
+    }
+    segment t3 {
+        mass = 0.6091kg;
+        site distal->location = trans(0.0000cm,1.6693cm,0.5282cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment t4 {
+        mass = 0.8028kg;
+        site interscye_right->location = trans(-13.2897cm,0.7363cm,-2.8935cm);
+        site distal->location = trans(0.0000cm,1.9386cm,0.6419cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site back->location = trans(-0.0041cm,1.9382cm,-5.9439cm);
+        site front->location = trans(-0.0007cm,0.4931cm,9.9236cm);
+        site t4->location = trans(0.0000cm,-3.6603cm,-7.7744cm);
+        site interscye_left->location = trans(13.2060cm,0.7018cm,-2.8153cm);
+    }
+    segment t5 {
+        mass = 0.8997kg;
+        site distal->location = trans(0.0000cm,1.6781cm,0.4897cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site suprasternale->location = trans(-0.0007cm,0.4926cm,11.1565cm);
+    }
+    segment t6 {
+        mass = 0.9065kg;
+        site distal->location = trans(0.0000cm,1.8082cm,0.4321cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment t7 {
+        mass = 0.9965kg;
+        site right->location = trans(-15.9612cm,1.3487cm,3.4921cm);
+        site distal->location = trans(0.0000cm,1.6781cm,0.2906cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site back->location = trans(0.0000cm,2.8909cm,-6.1151cm);
+        site front->location = trans(-0.0015cm,2.7564cm,12.6570cm);
+        site left->location = trans(15.9599cm,1.3594cm,3.4934cm);
+    }
+    segment t8 {
+        mass = 1.4604kg;
+        site distal->location = trans(0.0000cm,1.6781cm,0.2304cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment t9 {
+        mass = 1.6676kg;
+        site distal->location = trans(0.0000cm,2.0691cm,0.0961cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment t10 {
+        mass = 1.6473kg;
+        site bustpointLeft->location = trans(-7.9034cm,1.6196cm,16.0204cm);
+        site distal->location = trans(0.0000cm,2.5907cm,-0.1344cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site front->location = trans(-0.0010cm,1.6294cm,16.3604cm);
+        site back->location = trans(0.0000cm,-1.1954cm,-7.5171cm);
+        site bustpointRight->location = trans(7.9017cm,1.6237cm,16.0209cm);
+    }
+    segment t11 {
+        mass = 1.6124kg;
+        site distal->location = trans(0.0000cm,2.4084cm,-0.3745cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment t12 {
+        mass = 1.9998kg;
+        site distal->location = trans(0.0000cm,3.6250cm,-0.4802cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site origin->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment l1 {
+        mass = 1.9582kg;
+        site distal->location = trans(0.0000cm,3.8337cm,-0.6243cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site substernale->location = trans(0.0000cm,2.5029cm,14.9421cm);
+    }
+    segment l2 {
+        mass = 2.1829kg;
+        site distal->location = trans(0.0000cm,3.8512cm,-0.5186cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment l3 {
+        mass = 2.5295kg;
+        site _10th_rib_right->location = trans(-9.7150cm,3.0924cm,10.8842cm);
+        site distal->location = trans(0.0000cm,3.8687cm,-0.2400cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site _10th_rib_left->location = trans(9.7150cm,3.0924cm,10.8842cm);
+    }
+    segment l4 {
+        mass = 1.8499kg;
+        site distal->location = trans(0.0000cm,3.9730cm,0.3456cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment l5 {
+        mass = 1.9516kg;
+        site right->location = trans(-14.1658cm,2.3316cm,2.2677cm);
+        site back->location = trans(0.0075cm,6.2003cm,-10.2448cm);
+        site distal->location = trans(0.0000cm,3.7729cm,0.4802cm);
+        site front->location = trans(0.0047cm,3.7264cm,11.7264cm);
+        site proximal->location = xyz(-90.0000deg,0.0000deg,-90.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site left->location = trans(14.3375cm,2.3316cm,2.2677cm);
+    }
+    segment lower_torso {
+        mass = 8.1571kg;
+        site iliocristale_right->location = trans(3.1382cm,-13.5932cm,15.0235cm);
+        site right_hiphandle->location = xyz(-108.2100deg,-20.5800deg,-67.0000deg) * trans(-0.3942cm,-17.8641cm,10.3650cm);
+        site ASIS_right->location = xyz(45.0000deg,90.0000deg,45.0000deg) * trans(10.2954cm,-10.5825cm,7.2804cm);
+        site center_of_mass->location = trans(0.7128cm,-0.0047cm,7.9604cm);
+        site front->location = trans(13.3086cm,-8.7190cm,8.1224cm);
+        site distal->location = trans(0.0000cm,0.0000cm,8.2364cm);
+        site right_side->location = trans(2.2700cm,-15.7119cm,-1.5879cm);
+        site rhip_lateral->location = xyz(-180.0000deg,0.0000deg,0.0000deg) * trans(0.0000cm,-9.1035cm,0.0000cm);
+        site iliocristale_left->location = trans(3.1385cm,13.7579cm,15.0507cm);
+        site butt->location = trans(-11.3556cm,0.0000cm,2.3127cm);
+        site h_point->location = xyz(45.0000deg,90.0000deg,45.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site proximal0->location = trans(2.7377cm,0.0000cm,0.0000cm);
+        site ASIS_left->location = xyz(45.0000deg,90.0000deg,45.0000deg) * trans(10.2954cm,10.5825cm,7.2804cm);
+        site left_hiphandle->location = xyz(108.2100deg,-20.5800deg,-102.0000deg) * trans(0.7350cm,16.9023cm,9.2172cm);
+        site proximal->location = trans(0.0000cm,0.0000cm,-4.9572cm);
+        site lhip_lateral->location = xyz(-180.0000deg,0.0000deg,0.0000deg) * trans(0.0000cm,9.1035cm,0.0000cm);
+        site crotch->location = trans(-4.9399cm,0.0000cm,-10.7558cm);
+        site left_side->location = trans(2.2700cm,15.7119cm,-1.5879cm);
+    }
+    segment left_lower_arm {
+        centerofmass = (-0.59cm,0.00cm,8.24cm);
+        mass = 1.2990kg;
+        site distal->location = xyz(-0.0000deg,-2.0100deg,-0.0000deg) * trans(-1.0036cm,0.0000cm,24.7201cm);
+        site proximal->location = xyz(-0.0000deg,-2.0100deg,-0.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site radiale->location = trans(-1.3755cm,-4.8587cm,0.0868cm);
+    }
+    segment left_palm {
+        mass = 0.1751kg;
+        site metacarpale2->location = xyz(-0.0000deg,-180.0000deg,-0.0000deg) * trans(-3.7064cm,8.6753cm,0.9366cm);
+        site palmcenter->location = trans(0.1414cm,5.4576cm,2.1778cm);
+        site f11->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(-2.3506cm,8.7420cm,0.3533cm);
+        site thumb0->location = xyz(-89.9999deg,0.0001deg,-0.0000deg) * trans(-1.4777cm,3.0800cm,1.5153cm);
+        site center_of_mass->location = trans(0.3408cm,4.8520cm,0.9081cm);
+        site f22->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(0.0239cm,8.6696cm,-0.1642cm);
+        site styloid_radial->location = trans(-3.2538cm,-0.0043cm,0.9015cm);
+        site f33->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(2.1810cm,7.6579cm,0.4443cm);
+        site f44->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(4.2665cm,6.7089cm,0.9841cm);
+        site base->location = xyz(-90.0000deg,0.0000deg,-180.0000deg) * trans(0.0000cm,0.0000cm,0.8991cm);
+        site metacarpale5->location = xyz(-0.0000deg,-180.0000deg,-0.0000deg) * trans(5.2271cm,6.7903cm,1.2034cm);
+    }
+    segment thumb_axis_left {
+        site axis->location = xyz(17.1900deg,28.8900deg,81.5000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site palm->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_thumb0 {
+        mass = 0.0612kg;
+        site tip->location = trans(0.0000cm,4.9223cm,0.0000cm);
+        site base0->location = xyz(-0.0000deg,-180.0000deg,-0.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_thumb1 {
+        mass = 0.0207kg;
+        site tip->location = trans(0.0000cm,3.6146cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_thumb2 {
+        mass = 0.0121kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,3.0517cm,0.0000cm);
+    }
+    segment left_finger00 {
+        mass = 0.0207kg;
+        site tip->location = trans(0.0000cm,5.1664cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger01 {
+        mass = 0.0078kg;
+        site tip->location = trans(0.0000cm,2.4233cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger02 {
+        mass = 0.0043kg;
+        site tip->location = trans(0.0000cm,2.8774cm,0.2082cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger10 {
+        mass = 0.0241kg;
+        site tip->location = trans(0.0000cm,5.7118cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger11 {
+        mass = 0.0121kg;
+        site tip->location = trans(0.0000cm,2.8891cm,0.0016cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger12 {
+        mass = 0.0078kg;
+        site tip->location = trans(0.0000cm,2.9043cm,0.2640cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger20 {
+        mass = 0.0207kg;
+        site tip->location = trans(0.0000cm,5.4571cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger21 {
+        mass = 0.0121kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.6021cm,0.0000cm);
+    }
+    segment left_finger22 {
+        mass = 0.0043kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,3.3200cm,0.2093cm);
+    }
+    segment left_finger30 {
+        mass = 0.0121kg;
+        site tip->location = trans(0.0000cm,4.2121cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment left_finger31 {
+        mass = 0.0078kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.4973cm,0.0000cm);
+    }
+    segment left_finger32 {
+        mass = 0.0043kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.6921cm,0.1983cm);
+    }
+    segment right_lower_arm {
+        centerofmass = (-0.59cm,0.00cm,8.24cm);
+        mass = 1.2990kg;
+        site distal->location = xyz(-0.0000deg,-2.0100deg,-0.0000deg) * trans(-1.0036cm,0.0000cm,24.7201cm);
+        site front->location = trans(3.6984cm,-2.1873cm,3.2257cm);
+        site back->location = trans(-5.8126cm,2.2986cm,3.0790cm);
+        site proximal->location = xyz(-0.0000deg,-2.0100deg,-0.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site left->location = trans(-1.1162cm,-4.7724cm,-0.0506cm);
+        site right->location = trans(-1.3755cm,4.8587cm,0.0868cm);
+        site radiale->location = trans(-1.3755cm,4.8587cm,0.0868cm);
+        site elbow->location = trans(-4.5553cm,1.9933cm,-1.7260cm);
+    }
+    segment right_palm {
+        mass = 0.1751kg;
+        site f11->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(2.3506cm,8.7420cm,0.3533cm);
+        site metacarpale2->location = xyz(-0.0000deg,-180.0000deg,-0.0000deg) * trans(3.7064cm,8.6753cm,0.9366cm);
+        site right->location = trans(3.5526cm,8.6757cm,1.5364cm);
+        site f22->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(-0.0239cm,8.6696cm,-0.1642cm);
+        site f33->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(-2.1810cm,7.6579cm,0.4443cm);
+        site palmcenter->location = trans(-0.1414cm,5.4576cm,2.1778cm);
+        site thumb0->location = xyz(89.9999deg,179.9999deg,-0.0000deg) * trans(1.4777cm,3.0800cm,1.5153cm);
+        site back->location = trans(-0.0000cm,2.8948cm,-0.8158cm);
+        site f44->location = xyz(-0.0001deg,-180.0000deg,-0.0000deg) * trans(-4.2665cm,6.7089cm,0.9841cm);
+        site metacarpale5->location = xyz(-0.0000deg,-180.0000deg,-0.0000deg) * trans(-5.2271cm,6.7903cm,1.2034cm);
+        site left->location = trans(-5.2294cm,6.7905cm,1.2022cm);
+        site real_base->location = xyz(-90.0000deg,-6.5600deg,-0.0000deg) * trans(1.2367cm,0.6247cm,0.0160cm);
+        site front->location = trans(-1.9387cm,2.2087cm,2.8285cm);
+        site styloid_radial->location = trans(3.2538cm,-0.0043cm,0.9015cm);
+        site base->location = xyz(-90.0000deg,0.0000deg,-0.0000deg) * trans(0.0000cm,0.0000cm,0.8991cm);
+    }
+    segment thumb_axis_right {
+        site axis->location = xyz(-17.1900deg,28.8900deg,98.5000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+        site palm->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment right_thumb0 {
+        mass = 0.0612kg;
+        site tip->location = trans(0.0000cm,4.9223cm,0.0000cm);
+        site base0->location = xyz(-0.0000deg,-180.0000deg,-0.0000deg) * trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment right_thumb1 {
+        mass = 0.0207kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,3.6146cm,0.0000cm);
+    }
+    segment right_thumb2 {
+        mass = 0.0121kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,3.0517cm,0.0000cm);
+    }
+    segment right_finger00 {
+        mass = 0.0207kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,5.1664cm,0.0000cm);
+    }
+    segment right_finger01 {
+        mass = 0.0078kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.4233cm,0.0000cm);
+    }
+    segment right_finger02 {
+        mass = 0.0043kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.8774cm,0.2082cm);
+    }
+    segment right_finger10 {
+        mass = 0.0241kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,5.7118cm,0.0000cm);
+    }
+    segment right_finger11 {
+        mass = 0.0121kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.8891cm,0.0000cm);
+    }
+    segment right_finger12 {
+        mass = 0.0078kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.9043cm,0.2640cm);
+    }
+    segment right_finger20 {
+        mass = 0.0207kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,5.4571cm,0.0001cm);
+    }
+    segment right_finger21 {
+        mass = 0.0121kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.6021cm,0.0000cm);
+    }
+    segment right_finger22 {
+        mass = 0.0043kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,3.3200cm,0.2093cm);
+    }
+    segment right_finger30 {
+        mass = 0.0121kg;
+        site tip->location = trans(0.0000cm,4.2122cm,0.0000cm);
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment right_finger31 {
+        mass = 0.0078kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.4973cm,0.0000cm);
+    }
+    segment right_finger32 {
+        mass = 0.0043kg;
+        site base0->location = trans(0.0000cm,0.0000cm,0.0000cm);
+        site tip->location = trans(0.0000cm,2.6921cm,0.1983cm);
+    }
+    segment hair {
+        site top->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint right_toes {
+        connect right_foot.toes to right_toes.proximal;
+        type = R(y);
+        llimit = (0.0000deg);
+        ulimit = (90.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.1755,0),(0,0,0));
+    /* end property list */
+    }
+    joint left_toes {
+        connect left_foot.toes to left_toes.proximal;
+        type = R(y);
+        llimit = (0.0000deg);
+        ulimit = (90.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.1755,0),(0,0,0));
+    /* end property list */
+    }
+    joint right_ankle {
+        connect right_lower_leg.distal to right_foot.proximal;
+        type = R(-z) * R(-x) * R(y);
+        llimit = (-55.0000deg,-39.0000deg,-79.6000deg);
+        ulimit = (63.0000deg,35.0000deg,25.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-30.6541,0),(-2.6001,0,-8.6585));
+    /* end property list */
+    }
+    joint left_ankle {
+        connect left_lower_leg.distal to left_foot.proximal;
+        type = R(z) * R(x) * R(y);
+        llimit = (-55.0000deg,-39.0000deg,-79.6000deg);
+        ulimit = (63.0000deg,35.0000deg,25.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-29.7007,0),(10.5715,0,10.2427));
+    /* end property list */
+    }
+    joint right_knee {
+        connect right_upper_leg.distal to right_lower_leg.proximal;
+        type = R(-y);
+        llimit = (-3.0000deg);
+        ulimit = (160.2000deg);
+        rest = (10.0000deg);
+        tolerance = (10.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-26.4598,0),(36.4373,0,-46.3786));
+    /* end property list */
+    }
+    joint left_knee {
+        connect left_upper_leg.distal to left_lower_leg.proximal;
+        type = R(-y);
+        llimit = (-3.0000deg);
+        ulimit = (160.2000deg);
+        rest = (10.0000deg);
+        tolerance = (10.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-25.5064,0),(15.5990,0,58.7580));
+    /* end property list */
+    }
+    joint right_hip {
+        connect lower_torso.rhip_lateral to right_upper_leg.proximal;
+        type = R(-z) * R(-x) * R(y);
+        llimit = (-50.0000deg,-10.0000deg,-17.0000deg);
+        ulimit = (40.0000deg,30.0000deg,117.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-18.8357,0),(17.3118,0,-12.6578));
+    /* end property list */
+    }
+    joint left_hip {
+        connect lower_torso.lhip_lateral to left_upper_leg.proximal;
+        type = R(z) * R(x) * R(y);
+        llimit = (-50.0000deg,-10.0000deg,-17.0000deg);
+        ulimit = (40.0000deg,30.0000deg,117.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-17.8823,0),(9.6464,0,15.0951));
+    /* end property list */
+    }
+    joint atlanto_occipital {
+        connect neck.distal to bottom_head.proximal;
+        type = R(z) * R(y) * R(x);
+        llimit = (-43.5000deg,-51.5000deg,-23.5000deg);
+        ulimit = (43.5000deg,25.8000deg,23.5000deg);
+        stiffness = (1.00,1.00,1.00);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-4.7972,0),(2.7434,0,-0.9106));
+    /* end property list */
+    }
+    joint base_of_neck {
+        connect t1.distal to neck.proximal;
+        type = R(y) * R(z) * R(x);
+        llimit = (-51.5000deg,-56.1000deg,-20.0000deg);
+        ulimit = (45.2000deg,56.1000deg,20.0000deg);
+        stiffness = (0.95,0.95,0.95);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-6.7222,0),(7.0207,0,-2.0224));
+    /* end property list */
+    }
+    joint spinet2t1 {
+        connect t2.distal to t1.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-3.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,3.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-17.2006,0),(-11.6331,0.0001,-2.2626));
+    /* end property list */
+    }
+    joint spinet3t2 {
+        connect t3.distal to t2.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-3.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,3.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-17.7333,0),(-8.1974,0.0001,-3.4509));
+    /* end property list */
+    }
+    joint spinet4t3 {
+        connect t4.distal to t3.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-3.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,3.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-18.3424,0),(-5.1084,0.0001,-4.3901));
+    /* end property list */
+    }
+    joint spinet5t4 {
+        connect t5.distal to t4.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-3.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,3.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-19.1453,0),(-1.3711,0.0001,-5.4723));
+    /* end property list */
+    }
+    joint spinet6t5 {
+        connect t6.distal to t5.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-3.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,3.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-20.0449,0),(1.9478,0.0001,-6.3464));
+    /* end property list */
+    }
+    joint spinet7t6 {
+        connect t7.distal to t6.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-4.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,4.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-20.9514,0),(5.5935,0.0001,-7.1962));
+    /* end property list */
+    }
+    joint spinet8t7 {
+        connect t8.distal to t7.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-2.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,2.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-21.9479,0),(8.9983,0.0001,-7.8694));
+    /* end property list */
+    }
+    joint spinet9t8 {
+        connect t9.distal to t8.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-2.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,2.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-23.4083,0),(12.4651,0.0001,-8.4588));
+    /* end property list */
+    }
+    joint spinet10t9 {
+        connect t10.distal to t9.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-2.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,2.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-25.0760,0),(16.7174,0.0001,-9.0309));
+    /* end property list */
+    }
+    joint spinet11t10 {
+        connect t11.distal to t10.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-1.6700deg,-3.0000deg,-1.6700deg);
+        ulimit = (2.5000deg,3.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-26.7233,0),(21.9292,0.0001,-9.5391));
+    /* end property list */
+    }
+    joint spinet12t11 {
+        connect t12.distal to t11.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-2.4000deg,-2.0000deg,-1.6700deg);
+        ulimit = (3.0000deg,2.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-28.3357,0),(26.5223,0.0001,-9.8277));
+    /* end property list */
+    }
+    joint spinel1t12 {
+        connect l1.distal to t12.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-3.3000deg,-5.0000deg,-1.6700deg);
+        ulimit = (4.0000deg,5.0000deg,1.6700deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-30.3355,0),(33.6594,0.0001,-10.0705));
+    /* end property list */
+    }
+    joint spinel2l1 {
+        connect l2.distal to l1.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-3.9700deg,-1.0000deg,-4.0000deg);
+        ulimit = (7.0300deg,1.0000deg,4.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-32.2937,0),(40.8629,0.0001,-10.1334));
+    /* end property list */
+    }
+    joint spinel3l2 {
+        connect l3.distal to l2.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-4.3300deg,-1.5000deg,-4.0000deg);
+        ulimit = (7.6700deg,1.5000deg,4.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-34.4766,0),(47.4475,0.0001,-9.4192));
+    /* end property list */
+    }
+    joint spinel4l3 {
+        connect l4.distal to l3.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-6.5000deg,-1.5000deg,-4.0000deg);
+        ulimit = (11.5000deg,1.5000deg,4.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-37.0061,0),(53.4728,0.0001,-7.7524));
+    /* end property list */
+    }
+    joint spinel5l4 {
+        connect l5.distal to l4.proximal;
+        type = R(x) * R(y) * R(z);
+        llimit = (-8.6600deg,-2.0000deg,-4.0000deg);
+        ulimit = (15.3400deg,2.0000deg,4.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-38.8560,0),(58.9604,0.0001,-4.8653));
+    /* end property list */
+    }
+    joint waist {
+        connect lower_torso.distal to l5.proximal;
+        type = R(y) * R(z) * R(x);
+        llimit = (-6.5000deg,-2.0000deg,-4.0000deg);
+        ulimit = (11.0000deg,2.0000deg,4.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-40.8076,0),(60.6455,0.0001,-1.3005));
+    /* end property list */
+    }
+    joint solar_plexus {
+        connect t1.distal to upper_torso.proximal;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-10.2151,0),(-21.6229,0,0.5975));
+    /* end property list */
+    }
+    joint left_clavicle_joint {
+        connect upper_torso.lclav to left_clavicle.proximal;
+        type = R(x) * R(y);
+        llimit = (-12.0000deg,-8.0000deg);
+        ulimit = (25.0000deg,40.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-5.1075,0),(-8.1865,0,-4.0505));
+    /* end property list */
+    }
+    joint right_clavicle_joint {
+        connect upper_torso.rclav to right_clavicle.proximal;
+        type = R(-x) * R(y);
+        llimit = (-12.0000deg,-8.0000deg);
+        ulimit = (25.0000deg,40.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-5.1075,0),(-7.6721,0,3.0984));
+    /* end property list */
+    }
+    joint left_shoulder {
+        connect left_clavicle.lateral to left_upper_arm.proximal;
+        type = R(z) * R(x) * R(y);
+        llimit = (-108.5500deg,-48.0000deg,-61.4500deg);
+        ulimit = (71.5000deg,180.9500deg,187.6500deg);
+        stiffness = (1.00,1.00,1.00);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-3.4883,0),(-6.1803,0,-0.9709));
+    /* end property list */
+    }
+    joint right_shoulder {
+        connect right_clavicle.lateral to right_upper_arm.proximal;
+        type = R(-z) * R(-x) * R(y);
+        llimit = (-108.5500deg,-48.0000deg,-61.4500deg);
+        ulimit = (71.5000deg,180.9500deg,187.6500deg);
+        stiffness = (1.00,1.00,1.00);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-3.4883,0),(-7.7444,0,-0.4055));
+    /* end property list */
+    }
+    joint left_elbow {
+        connect left_upper_arm.distal to left_lower_arm.proximal;
+        type = R(y);
+        llimit = (0.0000deg);
+        ulimit = (142.0000deg);
+        rest = (5.0000deg);
+        tolerance = (5.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-1.6699,0),(-1.1307,0,-0.2392));
+    /* end property list */
+    }
+    joint right_elbow {
+        connect right_upper_arm.distal to right_lower_arm.proximal;
+        type = R(y);
+        llimit = (0.0000deg);
+        ulimit = (142.0000deg);
+        rest = (5.0000deg);
+        tolerance = (5.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-1.6699,0),(-1.0256,0,-0.5356));
+    /* end property list */
+    }
+    joint left_wrist {
+        connect left_lower_arm.distal to left_palm.base;
+        type = R(y) * R(x) * R(z);
+        llimit = (-45.0000deg,-85.0000deg,-113.0000deg);
+        ulimit = (45.0000deg,100.0000deg,77.0000deg);
+        stiffness = (0.25,0.75,0.25);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.3709,0),(-0.0515,0,-0.0172));
+    /* end property list */
+    }
+    joint right_wrist {
+        connect right_lower_arm.distal to right_palm.base;
+        type = R(y) * R(-x) * R(-z);
+        llimit = (-45.0000deg,-85.0000deg,-113.0000deg);
+        ulimit = (45.0000deg,100.0000deg,77.0000deg);
+        stiffness = (0.25,0.75,0.25);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.3709,0),(-0.0406,0,-0.0993));
+    /* end property list */
+    }
+    joint lthumbAxis {
+        connect thumb_axis_left.axis to left_thumb0.base0;
+        type = R(y);
+        llimit = (-59.0000deg);
+        ulimit = (66.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0940,0),(0,0,0));
+    /* end property list */
+    }
+    joint lthumb0 {
+        connect left_palm.thumb0 to thumb_axis_left.palm;
+        type = R(y) * R(z);
+        llimit = (0.0000deg,0.0000deg);
+        ulimit = (40.0000deg,110.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0940,0),(0,0,0));
+    /* end property list */
+    }
+    joint lthumb1 {
+        connect left_thumb0.tip to left_thumb1.base0;
+        type = R(-x);
+        llimit = (-23.5000deg);
+        ulimit = (60.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0328,0),(0,0,0));
+    /* end property list */
+    }
+    joint lthumb2 {
+        connect left_thumb1.tip to left_thumb2.base0;
+        type = R(-x);
+        llimit = (-10.0000deg);
+        ulimit = (75.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint left_finger00 {
+        connect left_palm.f11 to left_finger00.base0;
+        type = R(y) * R(z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0207,0),(0,0,0));
+    /* end property list */
+    }
+    joint linfinger01 {
+        connect left_finger00.tip to left_finger01.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    }
+    joint linfinger02 {
+        connect left_finger01.tip to left_finger02.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint left_finger10 {
+        connect left_palm.f22 to left_finger10.base0;
+        type = R(y) * R(z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0362,0),(0,0,0));
+    /* end property list */
+    }
+    joint lmidfinger11 {
+        connect left_finger10.tip to left_finger11.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint lmidfinger12 {
+        connect left_finger11.tip to left_finger12.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint left_finger20 {
+        connect left_palm.f33 to left_finger20.base0;
+        type = R(y) * R(z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0328,0),(0,0,0));
+    /* end property list */
+    }
+    joint lringfinger21 {
+        connect left_finger20.tip to left_finger21.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint lringfinger22 {
+        connect left_finger21.tip to left_finger22.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint left_finger30 {
+        connect left_palm.f44 to left_finger30.base0;
+        type = R(y) * R(z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint lpinfinger31 {
+        connect left_finger30.tip to left_finger31.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    }
+    joint lpinfinger32 {
+        connect left_finger31.tip to left_finger32.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint rthumbAxis {
+        connect thumb_axis_right.axis to right_thumb0.base0;
+        type = R(-y);
+        llimit = (-59.0000deg);
+        ulimit = (66.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0940,0),(-0.0045,0,-0.0124));
+    /* end property list */
+    }
+    joint rthumb0 {
+        connect right_palm.thumb0 to thumb_axis_right.palm;
+        type = R(y) * R(-z);
+        llimit = (0.0000deg,0.0000deg);
+        ulimit = (40.0000deg,110.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0940,0),(-0.0045,0,-0.0124));
+    /* end property list */
+    }
+    joint rthumb1 {
+        connect right_thumb0.tip to right_thumb1.base0;
+        type = R(-x);
+        llimit = (-23.5000deg);
+        ulimit = (60.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0328,0),(0,0,0));
+    /* end property list */
+    }
+    joint rthumb2 {
+        connect right_thumb1.tip to right_thumb2.base0;
+        type = R(-x);
+        llimit = (-10.0000deg);
+        ulimit = (75.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint right_finger00 {
+        connect right_palm.f11 to right_finger00.base0;
+        type = R(-y) * R(-z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0207,0),(0,0,0));
+    /* end property list */
+    }
+    joint rinfinger01 {
+        connect right_finger00.tip to right_finger01.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    }
+    joint rinfinger02 {
+        connect right_finger01.tip to right_finger02.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint right_finger10 {
+        connect right_palm.f22 to right_finger10.base0;
+        type = R(-y) * R(-z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0362,0),(0,0,0));
+    /* end property list */
+    }
+    joint rmidfinger11 {
+        connect right_finger10.tip to right_finger11.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint rmidfinger12 {
+        connect right_finger11.tip to right_finger12.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint right_finger20 {
+        connect right_palm.f33 to right_finger20.base0;
+        type = R(-y) * R(-z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0328,0),(0,0,0));
+    /* end property list */
+    }
+    joint rringfinger21 {
+        connect right_finger20.tip to right_finger21.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint rringfinger22 {
+        connect right_finger21.tip to right_finger22.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint right_finger30 {
+        connect right_palm.f44 to right_finger30.base0;
+        type = R(-y) * R(-z) * R(-x);
+        llimit = (-26.0000deg,-30.0000deg,-10.0000deg);
+        ulimit = (26.0000deg,30.0000deg,80.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0121,0),(0,0,0));
+    /* end property list */
+    }
+    joint rpinfinger31 {
+        connect right_finger30.tip to right_finger31.base0;
+        type = R(-x);
+        llimit = (-5.0000deg);
+        ulimit = (95.0000deg);
+    }
+    joint rpinfinger32 {
+        connect right_finger31.tip to right_finger32.base0;
+        type = R(-x);
+        llimit = (0.0000deg);
+        ulimit = (60.0000deg);
+    }
+    joint left_eyeball {
+        connect bottom_head.left_eyeball to left_eyeball.base;
+        type = R(x) * R(z);
+        llimit = (-35.0000deg,-35.0000deg);
+        ulimit = (35.0000deg,25.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0276,0),(0,0,0));
+    /* end property list */
+    }
+    joint right_eyeball {
+        connect bottom_head.right_eyeball to right_eyeball.base;
+        type = R(x) * R(z);
+        llimit = (-35.0000deg,-35.0000deg);
+        ulimit = (35.0000deg,25.0000deg);
+    /* start property list */
+    SSTR_Force_Moment = ((0,-0.0276,0),(0,0,0));
+    /* end property list */
+    }
+    joint eyelid_upper_left {
+        connect left_eyeball.base to eyelid_upper_left.base;
+        type = R(-z);
+        llimit = (0.0000deg);
+        ulimit = (44.0000deg);
+    }
+    joint eyelid_upper_right {
+        connect right_eyeball.base to eyelid_upper_right.base;
+        type = R(-z);
+        llimit = (0.0000deg);
+        ulimit = (44.0000deg);
+    }
+    joint eyelid_lower_left {
+        connect left_eyeball.base to eyelid_lower_left.base;
+        type = R(z);
+        llimit = (0.0000deg);
+        ulimit = (44.0000deg);
+    }
+    joint eyelid_lower_right {
+        connect right_eyeball.base to eyelid_lower_right.base;
+        type = R(z);
+        llimit = (0.0000deg);
+        ulimit = (44.0000deg);
+    }
+    joint ear_left {
+        connect bottom_head.tragion_left to ear_left.tragion;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint ear_right {
+        connect bottom_head.tragion_right to ear_right.tragion;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint hair {
+        connect bottom_head.top to hair.top;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    root = left_toes.distal;
+    postureref ["carry_load_v60.post"] carry_load;
+    postureref ["climb_ladder_v60.post"] climb_ladder;
+    postureref ["crawl_v60.post"] crawl;
+    postureref ["driving_v60.post"] driving;
+    postureref ["kneel_one_knee_v70.post"] kneel_one_knee;
+    postureref ["kneel_two_knees_v60.post"] kneel_two_knees;
+    postureref ["lay_on_side_v60.post"] lay_on_side;
+    postureref ["point_v60.post"] point;
+    postureref ["reach_across_obstacle_v70.post"] reach_across_obstacle;
+    postureref ["running_v70.post"] running;
+    postureref ["saw_v70.post"] saw;
+    postureref ["seated_elbows_v70.post"] seated_elbows;
+    postureref ["seated_erect_v70.post"] seated_erect;
+    postureref ["seated_relaxed_v70.post"] seated_relaxed;
+    postureref ["seated_straight_v70.post"] seated_straight;
+    postureref ["seated_typing_v70.post"] seated_typing;
+    postureref ["seated_working_v60.post"] seated_working;
+    postureref ["shovel_v60.post"] shovel;
+    postureref ["squat_v60.post"] squat;
+    postureref ["stand_arm_extended_v70.post"] stand_arm_extended;
+    postureref ["stand_arm_span_v60.post"] stand_arm_span;
+    postureref ["stand_forearm_up_v70.post"] stand_forearm_up;
+    postureref ["stand_hands_ahead_v60.post"] stand_hands_ahead;
+    postureref ["stand_relaxed_v70.post"] stand_relaxed;
+    postureref ["stand_straight_v70.post"] stand_straight;
+    postureref ["stand_overhead_v60.post"] stand_overhead;
+    postureref ["stand_working_v70.post"] stand_working;
+    postureref ["walking_double_support_v70.post"] walking_double_support;
+    postureref ["walking_single_support_v70.post"] walking_single_support;
+    postureref ["male_v70_Tpose.post"] TPose;
+    /* start property list */
+    weight = "75.000000";
+    visibility = 0;
+    version = "jack7.0";
+    place_of_birth = "Ann Arbor, Michigan";
+    height = "177.500000";
+    gender = "male";
+    clothingStyle = "casual";
+    WRIST_D = "4.130157";
+    WRIST_B = "6.907188";
+    WAIST_PST_D = "12.304547";
+    WAIST_B = "33.846634";
+    WAIST_ANT_D = "13.100330";
+    TORSO_L = "49.141918";
+    THIGH_L = "43.568558";
+    THIGH_INT_D = "17.510893";
+    THIGH_INT_B = "32.137241";
+    THIGH_D = "16.044720";
+    THIGH_B = "15.014389";
+    SSTR_Strategy = "Two Feet";
+    PELVIS_H = "8.354126";
+    NECK_TOP_D = "10.214540";
+    NECK_TOP_B = "10.813149";
+    NECK_L = "10.721962";
+    NECK_D = "11.141761";
+    NECK_BASE_D = "11.543165";
+    NECK_BASE_B = "13.896338";
+    NECK_B = "12.606622";
+    KNEE_D = "11.225713";
+    KNEE_B = "10.043327";
+    HEAD_H = "24.212990";
+    HEAD_D = "18.836456";
+    HEAD_B = "14.711864";
+    HAND_L = "19.236233";
+    HAND_D = "3.628830";
+    HAND_B = "8.616789";
+    FULL_TORSO_L = "57.496044";
+    FOREARM_L = "22.886976";
+    FOOT_L = "26.058329";
+    FOOT_H = "6.750707";
+    FOOT_B = "10.089066";
+    ELBOW_D = "10.240952";
+    ELBOW_B = "8.687132";
+    CHEST_TOP_PST_D = "11.851682";
+    CHEST_TOP_B = "35.262062";
+    CHEST_TOP_ANT_D = "10.526906";
+    CHEST_PST_D = "12.038895";
+    CHEST_BASE_PST_D = "10.751307";
+    CHEST_BASE_B = "28.828299";
+    CHEST_BASE_ANT_D = "13.665646";
+    CHEST_B = "33.204441";
+    CHEST_ANT_D = "11.893880";
+    CALF_L = "42.401951";
+    CALF_D = "10.122757";
+    CALF_B = "10.739248";
+    BUTT_PST_D = "12.904210";
+    BUTT_B = "32.678322";
+    BUTT_ANT_D = "11.247909";
+    BICEP_L = "28.086128";
+    BICEP_D = "11.147859";
+    BICEP_B = "9.456437";
+    BELLY_PST_D = "10.010560";
+    BELLY_B = "29.795683";
+    BELLY_ANT_D = "12.951211";
+    ANTHRO_DATABASE = "CHINESE";
+    ANK_MIN_D = "7.667343";
+    ANK_MIN_B = "4.640923";
+    ANKLE_D = "9.738528";
+    ANKLE_B = "6.481623";
+    /* end property list */
+}

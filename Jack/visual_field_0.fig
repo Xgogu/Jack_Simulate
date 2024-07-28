@@ -1,0 +1,6 @@
+figure {
+    segment eye_point {
+        site eye_point->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    root = eye_point.eye_point;
+}

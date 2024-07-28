@@ -1,0 +1,30 @@
+figure {
+    attribute yellow {
+        ambient = (0.250,0.250,0);
+        diffuse = (1,1,0);
+        specular = (0.125,0.125,0);
+    }
+    segment eye_point {
+        site eye_point->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment viewcone {
+        psurf = "visual_field_viewcone_left.pss";
+        attribute = yellow;
+        display_mode = "transparent_shaded";
+        site eye_point->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    segment outline {
+        psurf = "visual_field_outline_left.pss";
+        attribute = yellow;
+        site eye_point->location = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint viewcone {
+        connect eye_point.eye_point to viewcone.eye_point;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    joint outline {
+        connect eye_point.eye_point to outline.eye_point;
+        displacement = trans(0.0000cm,0.0000cm,0.0000cm);
+    }
+    root = eye_point.eye_point;
+}
